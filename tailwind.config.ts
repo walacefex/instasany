@@ -23,6 +23,9 @@ const config: Config = {
       height: {
         'section-hero': '54.625rem',
       },
+      backgroundImage: {
+        'hero': 'url("/bg-hero.svg")',
+      },
      },
   },
   plugins: [],
