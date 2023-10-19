@@ -20,6 +20,7 @@ const config: Config = {
         'text-hero': '66rem',
         'area-icons': '53.4375rem',
         'area-mockups': '59.8125rem',
+        'area-cards': '82.5rem',
       },
       height: {
         'section-hero': '54.625rem',
