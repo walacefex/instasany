@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         'green-primary': '#2A4B46',
       },
+      maxWidth: {
+        grid: '77.5rem',
+      },
      },
   },
   plugins: [],
