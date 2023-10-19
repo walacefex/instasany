@@ -24,6 +24,7 @@ const config: Config = {
       },
       height: {
         'section-hero': '54.625rem',
+        'area-cards': '35.1rem',
       },
       backgroundImage: {
         'hero': 'url("/bg-hero.svg")',
