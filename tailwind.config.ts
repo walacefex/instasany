@@ -17,6 +17,7 @@ const config: Config = {
       maxWidth: {
         grid: '77.5rem',
         'text-hero': '66rem',
+        'area-icons': '53.4375rem',
       },
       height: {
         'section-hero': '54.625rem',
