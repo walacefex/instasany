@@ -25,23 +25,23 @@ export function SectionCards() {
   const card06Ref = useRef(null);
   const section = sectionRef.current;
 
-  function animateCards(images: HTMLImageElement[] | null[], position:number) {
-    gsap.fromTo(images, {
-      opacity: 0,
-      x: position,
-    }, {
-      opacity: 1,
-      x: position,
-      duration: 0.5,
-      stagger: 0.4,
-      scrollTrigger: {
-        trigger: section,
-        start: 'center center',     
-      },
-    });
-  }
-
   useEffect(() => {
+    function animateCards(images: HTMLImageElement[] | null[], position:number) {
+      gsap.fromTo(images, {
+        opacity: 0,
+        x: position,
+      }, {
+        opacity: 1,
+        x: position,
+        duration: 0.5,
+        stagger: 0.4,
+        scrollTrigger: {
+          trigger: section,
+          start: 'center center',     
+        },
+      });
+    }
+
     const mockupPhone = mockupRef.current;
     const title = titleRef.current;
    
@@ -79,7 +79,7 @@ export function SectionCards() {
     animateCards(leftImages, 50)
     animateCards(rightImages, -50)
 
-  }, []);
+  }, [section]);
 
   return (
   <>
@@ -108,4 +108,4 @@ export function SectionCards() {
     </section>
   </>
   )
-}
+  }
