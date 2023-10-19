@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         'green-primary': '#1D3531',
         'green-activated': '#5D8A83',
+        'green-border': '#2A4B46',
       },
       maxWidth: {
         grid: '77.5rem',

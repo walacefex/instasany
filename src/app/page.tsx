@@ -1,6 +1,7 @@
+import { SectionHero } from "@/components/SectionHero";
 
 export default function Home() {
   return (
-    <h1>Instasany</h1>
+   <SectionHero />
   )
 }
