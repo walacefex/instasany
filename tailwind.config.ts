@@ -15,6 +15,9 @@ const config: Config = {
       maxWidth: {
         grid: '77.5rem',
       },
+      height: {
+        'section-hero': '54.625rem',
+      },
      },
   },
   plugins: [],
